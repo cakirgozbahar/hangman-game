@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <title>Hangman</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="title">Hangman 웃</h1>
+        </div>
+        
+        <div class="hangman">
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240215173028/0.png" 
+              alt="hangman-image"
+              />
+            
+        </div>
+    
+        <div class="game">
+            <button class="play-button" id="start-game"> Play  ▶ </button>
+            <div id="hidden-box" hidden > 
+        
+                <div class="text"  > </div>
+                <input  type="text" maxlength="1" id="letterInput" />
+                <button id="guess-button" class="guess-button"  onclick="guessLetter()">Guess</button>
+                <button id="hint-button" class="hint-button"  onclick="giveHint()">Hint</button>
+                <div id="wrongLetters"> </div>
+                <text style="margin-right: 1%;" id="heart" ></text>
+                <text id="hint"></text>
+                <div id="status"></div> 
+    
+            </div>
+    
+            <button class="replay-button" id="new-game" hidden> New Game</button>
+
+        </div>
+
+
+        <div class="footer">
+            <footer>Created by @cakirgozbahar</footer>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html> 

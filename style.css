@@ -1,0 +1,152 @@
+body {
+  text-align: center;
+  font-family: "Arvo", cursive;
+  font-weight: bold;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "hangman game"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  
+  padding: 5px;
+}
+.header {
+  grid-area: header;
+  text-align: center;
+}
+.hangman {
+  grid-area: hangman;
+  background-color: whitesmoke;
+}
+.game {
+  grid-area:game;
+}
+.footer {
+  grid-area: footer;
+}
+
+.play-button {
+  padding: 17px 40px;
+  margin-top: 8%;
+  position: relative;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-family: "Arvo", cursive;
+  font-weight: bold;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.play-button:hover {
+  letter-spacing: 3px;
+  background-color: #DA0463;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #c9216c 0px 7px 29px 0px;
+}
+
+.play-button:active {
+  letter-spacing: 3px;
+  background-color: #DA0463;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #c9216c 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.replay-button {
+  padding: 17px 40px;
+  margin-top: 1.5%;
+  position: relative;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-family: "Arvo", cursive;
+  font-weight: bold;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.replay-button:hover {
+  letter-spacing: 3px;
+  background-color: #DA0463;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #c9216c 0px 7px 29px 0px;
+}
+
+.replay-button:active {
+  letter-spacing: 3px;
+  background-color: #DA0463;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #c9216c 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+
+
+
+.text{
+    letter-spacing: 10px;
+    color: #DBEDF3;
+    font-size: xx-large;
+    margin: 50px 50px 25px 50px;
+  
+    padding: 1%;
+    position: relative;
+}
+.guess-button{
+  position: relative;
+  margin: 1%;
+  padding: 4px 11px 4px 11px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1px;
+  font-family: "Arvo", cursive;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+.hint-button{
+  position: relative;
+  margin: 1%;
+  padding: 4px 11px 4px 11px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1px;
+  font-family: "Arvo", cursive;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
