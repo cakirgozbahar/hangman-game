@@ -22,7 +22,8 @@ To run the project:
 
 ### 💻 Live Demo
 Try it here:
-🔗 [Play on GitHub Pages](https://cakirgozbahar.github.io/hangman-game/)
+
+> 🔗 [Play on GitHub Pages](https://cakirgozbahar.github.io/hangman-game/)
 
 ## ⌨️ Controls
 
