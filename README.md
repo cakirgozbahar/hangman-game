@@ -20,6 +20,10 @@ To run the project:
 - You have **6 wrong guess attempts**.
 - You also have **2 hints (`💡`)**, each revealing a random unrevealed letter.
 
+### 💻 Live Demo
+Try it here:
+🔗 [Play on GitHub Pages](https://cakirgozbahar.github.io/hangman-game/)
+
 ## ⌨️ Controls
 
 - Type a letter into the input box and press `Enter` to guess.
